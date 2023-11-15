@@ -1,0 +1,8 @@
+body{
+    background-image: url(fonusarb.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px 0px 40px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
