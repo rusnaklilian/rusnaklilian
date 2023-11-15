@@ -1,0 +1,221 @@
+body{
+    background: url('fonusarb.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0px 0px 0px 40px;
+    margin-top: 20px;
+    margin-left: 150px;
+}
+.header{
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blocks{
+    display: flex;
+}
+.section1{
+    width: 500px;
+    padding: 0px 30px;
+}
+.orar{
+    position: relative;
+    margin-bottom: 20px;
+    padding: 15px 29px 15px 15px;
+    background: #f8f8f8;
+    color: #666;
+    margin-bottom: 20px;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+.orarcr{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-weight: 900;
+}
+.ukflex{
+    display: flex;
+}
+.ukflexbetween{
+    justify-content: space-between;
+}
+.ukflexnowrap{
+    flex-wrap: nowrap;
+}
+.ukbutton{
+    background-color: #25975A;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: none;
+    border: none;
+    padding: 10px 43px;
+    cursor: pointer;
+    margin-top: 15px;
+}
+.ukbutton2:hover{
+    transition: .3s;
+    background-color: #ffffff;
+    color:black
+}
+#input{
+    margin-top: 15px;
+    width: 493px;
+    height: 35px;
+
+}
+.groups{
+    list-style: none;
+    background-color: white;
+    border: ridge 1px lightgray;
+    padding: 0px 5px;
+}
+.resultpadding{
+    margin-top: 15px;
+}
+.groups:hover{
+    transition: .3s;
+    background-color: #f4fd94;
+    color: black;
+}
+.daydatanumber{
+    background-color: white;
+    width: 100%;
+    margin-top: 15px;
+    height: 30px;
+    align-items: center;
+    display: flex;
+    color: #666;
+}
+#textlist{
+    margin-left: 5px;
+    
+}
+.parent {
+    display: grid;
+    grid-template-columns: 3fr repeat(7, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    margin-top: 15px;
+    text-align: center;
+}    
+    
+.green{
+    background-color: #25975A;
+    border: solid 1px white;
+}
+.white{
+    background-color: white;
+    border: ridge 1px gray;
+}
+.red{
+    background-color: #f0506e;
+
+}
+.numberwords{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+.bottom{
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    padding-top: 15px;
+}
+.p{
+    padding-left: 10px;
+}
+.bottom__second{
+    padding: 5px 15px
+}
+.textcenter_DO{
+    margin-left: 20px;
+}
+.bottom__second__flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.bottom__third{
+    margin-top: 20px;
+    color: #32d296;
+    background: #edfbf6;
+    padding: 15px 30px 15px 15px;
+}
+.section2{
+    display: flex;
+    justify-content: center ;
+}
+.alecorusso{
+    font-size: 1.25em;
+    line-height: 1.4;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.imglogo1{
+    margin: 0px 245px 10px 245px;
+}
+.tableAR{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: repeat(7, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+}
+.tableAR__padding{
+    padding: 10px 20px;
+    font-family:"Segoe UI","Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    
+}
+.tableAR2:hover{
+    transition: .3s;
+    background-color: #f4fd94;
+    color: black;
+}
+
+.table-orar {
+    display: flex; 
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.custom-table {
+    display: flex; 
+    flex-wrap: nowrap;
+}
+
+.orar-zile {
+    display: flex;
+    flex-direction: column;
+}
+
+.place-holder {
+    background-color: #25975A;
+    height: 20px;
+    border: 1px solid #000;
+}
+
+.zile-saptamana{
+    background-color: #25975A;
+    height: 20px;
+    border: 1px solid #000;
+    color: white;
+    text-align: center;
+}
+
+.saptamana-numar{
+    background-color: #25975A;
+    border: 1px solid #000;
+    color: white;
+    text-align: center;
+}
